@@ -1,0 +1,43 @@
+.header{
+    height: 20vh;
+    background-color: rgba(13, 12, 12, 0.713);
+}
+.header .menu{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    width: 90%;
+    /* margin-right: 20px; */
+    color: white;
+}
+.title{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+.contentRight{
+    width: 25%;
+    text-align: center;
+}
+
+.contentLeft{
+    width: 55%;
+}
+
+.check{
+    display: flex;
+    align-items: center;
+
+}
+
+
+.postContent{
+display: flex;
+}

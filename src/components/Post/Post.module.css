@@ -1,0 +1,29 @@
+.img{
+    width: 200px;
+    height: 200px;
+}
+.main{
+    display: flex;
+}
+.imgDiv{
+    width: 33%;
+}
+
+.title{
+    width: 65%;
+}
+.title h1{
+    margin-top: 0;
+}
+.data{
+color: #858080;
+margin-top: 0px;
+}
+.dataDiv{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title .svg{
+    margin-top: 10px;
+}

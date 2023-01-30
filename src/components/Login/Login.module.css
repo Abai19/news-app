@@ -1,0 +1,39 @@
+.container {
+    max-width: 30%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.14);
+    border-radius: 15px;
+    padding: 4%;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+.block {
+    display: flex;
+    margin-top: 20px;
+    /* gap:30px; */
+    justify-content: space-between;
+}
+.btnLogin {
+    margin-top: 20px;
+    background-color: #7E5BC2;
+    border-radius: 10px;
+}
+.noAccLabel {
+    color: #5A5A5A;
+    font-size: 14px;
+    margin-top: 10px
+}
+.container button {
+    margin-top: 20px;
+    background-color: #7E5BC2;
+    border-radius: 10px;
+    text-align: center;
+}
+.container button:hover {
+    background-color: #6843AF ;
+}
+.btnBlock {
+    display: flex;
+    justify-content: center;
+}
