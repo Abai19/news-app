@@ -9,6 +9,7 @@ import NewsPage from './components/NewsPage';
 import Registration from './components/Registration/Registration';
 import Login from './components/Login/Login';
 import SingleNew from './components/SIngleNew';
+import UserPage from './components/UserPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -19,6 +20,7 @@ root.render(
         <Route path="/registration" element={<Registration/>} />
         <Route path="/newsPage" element={<NewsPage/>} />
         <Route path="/newsPage/:id" element={<SingleNew/>} />
+        <Route path="/userPage" element={<UserPage/>}/>
       </Routes>
     </BrowserRouter>
   // </React.StrictMode>
